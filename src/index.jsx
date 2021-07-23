@@ -6,10 +6,12 @@ import App from './App/App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-let precio = 28000
+let money = 28000
 
 function formatMoney(num) {
     return "$ " + num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
 }
 
-ReactDOM.render(<App precio={formatMoney(precio)}/>, document.getElementById('root'))
+export default formatMoney
+
+ReactDOM.render(<App money={money}/>, document.getElementById('root'))

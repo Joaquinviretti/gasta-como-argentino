@@ -5,10 +5,10 @@ import Footer from "./Footer/Footer"
 import "./App.scss"
 
 
-const App = ({ precio }) =>
+const App = ({ money }) =>
     <>
-        <NavBar precio={precio} />
-        <Header precio={precio} />
+        <NavBar money={money} />
+        <Header money={money} />
         <ItemContainer>
         </ItemContainer>
         <Footer/>

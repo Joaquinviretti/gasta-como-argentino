@@ -1,5 +1,5 @@
-const WidgetMonet = ({precio}) =>
+const WidgetMonet = ({money}) =>
 <>
-    <button type="button" class="btn btn-danger">{precio}</button>
+    <button type="button" className="btn btn-danger">{money}</button>
 </>
 export default WidgetMonet
