@@ -10,9 +10,12 @@ let dateString = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFu
 
 
 
-const Header = ({ money}) => {
+const Header = ({ money, gastado }) => {
 
     let moneyClass = "high"
+
+    let sueldos = parseFloat(gastado / 22200).toFixed(2)
+
 
     if (money < 0) {
         moneyClass = "low"
@@ -25,16 +28,20 @@ const Header = ({ money}) => {
                     <h1 className="fs-2 mb-3 pt-2">Gastá un sueldo en Argentina</h1>
                     <p className="mb-1">Salario Mínimo, Vital y Móvil al {dateString}: $22.200</p>
                     <h2 className={moneyClass}>{formatMoney(money)}</h2>
-                    <p>Necesitas {} sueldo/s para comprar los productos seleccionados.</p>
-                    <div>
-                        <Button className="me-2 my-2 px-3" variant="secondary">Mínimo</Button>
-                        <Button className="ms-2 my-2" variant="secondary">Promedio</Button>
-                    </div>
+                    <p>Necesitas {sueldos} sueldo/s para comprar los productos seleccionados.</p>
+                   
                 </Col>
             </Row>
         </Container>
     )
 
 }
+
+/*
+ <div>
+        <Button className="me-2 my-2 px-3" variant="secondary">Mínimo</Button>
+         <Button className="ms-2 my-2" variant="secondary">Promedio</Button>
+ </div>
+*/
 
 export default Header

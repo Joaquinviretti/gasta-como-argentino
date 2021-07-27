@@ -10,16 +10,18 @@ import "./App.scss"
 const App = () => {
 
     const [money,setMoney] = useState(22200)
+    const [gastado,setGastado] = useState(0)
 
     const onAdd = (precio) => {
         setMoney(money + precio)
+        setGastado(gastado - precio)
     }
 
 
     return (
         <>
             <NavBar money = {money}/>
-            <Header money = {money}/>
+            <Header money = {money} gastado = {gastado}/>
             <ItemContainer onAdd = {onAdd} />
             <Footer />
         </>

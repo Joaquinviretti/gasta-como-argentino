@@ -8,7 +8,7 @@ import formatMoney from "../index"
 
 const Item = ({nombre,precio,onAdd}) => {
 
-    const [cantidad, setCantidad] = useState(1)
+    const [cantidad, setCantidad] = useState(0)
 
     const sumar = () => {
         onAdd(-precio)
