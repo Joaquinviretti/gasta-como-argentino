@@ -22,14 +22,15 @@ const arrayObjetos = [
 
 ]
 
-const ItemContainer = () =>
+const ItemContainer = ({onAdd}) =>
      <Container className="pt-4">
           <Row xs={1} md={2} lg={3} className="g-4">
                {arrayObjetos.map(p =>
                     <Col>
                          <Item
-                              nombre={p.nombre}
-                              precio={p.precio}
+                              nombre = {p.nombre}
+                              precio = {p.precio}
+                              onAdd = {onAdd}
                          />
                     </Col>)}
           </Row>

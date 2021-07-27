@@ -3,8 +3,12 @@
     border-radius: 0.5em;
     color: white;
     width: 90%!important;
-    h2 {
+    .high {
         color: rgb(0, 207, 0);
+        font-weight: bold;
+    }
+    .low {
+        color: red;
         font-weight: bold;
     }
 }
