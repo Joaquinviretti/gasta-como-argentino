@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Joaquinviretti/gasta-como-argentino/static/css/main.28b14eac.chunk.css",
-    "main.js": "/Joaquinviretti/gasta-como-argentino/static/js/main.0331401f.chunk.js",
-    "main.js.map": "/Joaquinviretti/gasta-como-argentino/static/js/main.0331401f.chunk.js.map",
-    "runtime-main.js": "/Joaquinviretti/gasta-como-argentino/static/js/runtime-main.acd90b16.js",
-    "runtime-main.js.map": "/Joaquinviretti/gasta-como-argentino/static/js/runtime-main.acd90b16.js.map",
-    "static/css/2.4be38407.chunk.css": "/Joaquinviretti/gasta-como-argentino/static/css/2.4be38407.chunk.css",
-    "static/js/2.8570d066.chunk.js": "/Joaquinviretti/gasta-como-argentino/static/js/2.8570d066.chunk.js",
-    "static/js/2.8570d066.chunk.js.map": "/Joaquinviretti/gasta-como-argentino/static/js/2.8570d066.chunk.js.map",
-    "index.html": "/Joaquinviretti/gasta-como-argentino/index.html",
-    "static/css/2.4be38407.chunk.css.map": "/Joaquinviretti/gasta-como-argentino/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.28b14eac.chunk.css.map": "/Joaquinviretti/gasta-como-argentino/static/css/main.28b14eac.chunk.css.map",
-    "static/js/2.8570d066.chunk.js.LICENSE.txt": "/Joaquinviretti/gasta-como-argentino/static/js/2.8570d066.chunk.js.LICENSE.txt"
+    "main.css": "/gasta-como-argentino/static/css/main.28b14eac.chunk.css",
+    "main.js": "/gasta-como-argentino/static/js/main.0331401f.chunk.js",
+    "main.js.map": "/gasta-como-argentino/static/js/main.0331401f.chunk.js.map",
+    "runtime-main.js": "/gasta-como-argentino/static/js/runtime-main.00474001.js",
+    "runtime-main.js.map": "/gasta-como-argentino/static/js/runtime-main.00474001.js.map",
+    "static/css/2.4be38407.chunk.css": "/gasta-como-argentino/static/css/2.4be38407.chunk.css",
+    "static/js/2.8570d066.chunk.js": "/gasta-como-argentino/static/js/2.8570d066.chunk.js",
+    "static/js/2.8570d066.chunk.js.map": "/gasta-como-argentino/static/js/2.8570d066.chunk.js.map",
+    "index.html": "/gasta-como-argentino/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/gasta-como-argentino/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.28b14eac.chunk.css.map": "/gasta-como-argentino/static/css/main.28b14eac.chunk.css.map",
+    "static/js/2.8570d066.chunk.js.LICENSE.txt": "/gasta-como-argentino/static/js/2.8570d066.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.acd90b16.js",
+    "static/js/runtime-main.00474001.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.8570d066.chunk.js",
     "static/css/main.28b14eac.chunk.css",
